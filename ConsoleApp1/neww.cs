@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Neww
+    internal class Neww:origami
     {
         public void fun() 
         {

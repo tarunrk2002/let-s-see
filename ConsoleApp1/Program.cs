@@ -10,7 +10,8 @@
             Neww neww = new Neww();
 
             neww.fun();
-
+            origami ar = new origami();
+            
 
 
 
