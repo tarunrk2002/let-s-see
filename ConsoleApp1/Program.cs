@@ -5,6 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("chekin");
+
+            Neww neww = new Neww();
+            neww.fun();
+
 
 
 
