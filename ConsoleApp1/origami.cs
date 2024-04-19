@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    interface Itarun
-    {
+    
         public class asd
         {
+            private int a;
+            private int b;
+            public asd(int ant,int b) 
+            {
+                this.a = ant;
+            }
             public void add()
             {
 
@@ -21,8 +26,8 @@ namespace ConsoleApp1
 
             }
         }
-    }
-    internal class origami:Itarun
+    
+    public class origami
     {
         public void sss()
         {

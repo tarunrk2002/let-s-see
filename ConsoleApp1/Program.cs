@@ -11,6 +11,8 @@
 
             neww.fun();
             origami ar = new origami();
+            asd ne = new asd(2,3);
+            ne.somthing();
             
 
 
