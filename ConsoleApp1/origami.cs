@@ -27,7 +27,7 @@ namespace ConsoleApp1
             }
         }
     
-    public class origami
+    abstract class origami
     {
         public void sss()
         {
