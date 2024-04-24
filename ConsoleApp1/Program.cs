@@ -7,12 +7,13 @@
             Console.WriteLine("Hello, World!");
             Console.WriteLine("chekin");
 
-            Neww neww = new Neww();
+            //Neww neww = new Neww();
 
-            neww.fun();
-            origami ar = new origami();
-            asd ne = new asd(2,3);
-            ne.somthing();
+            //neww.fun();
+            test aa = new test();
+            aa.newfun();
+            
+            
             
 
 

@@ -16,7 +16,7 @@ namespace ConsoleApp1
             
             List<int> l1 = new List<int>();
             int add = 0;
-            l1[2] = 2;
+           
 
             for (int i = 0; i < len; i++)
             {

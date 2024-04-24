@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    
+    interface Iface
+    {
+
         public class asd
         {
             private int a;
             private int b;
-            public asd(int ant,int b) 
+            public asd(int ant, int b)
             {
                 this.a = ant;
             }
@@ -26,8 +28,10 @@ namespace ConsoleApp1
 
             }
         }
+
+    }
     
-    abstract class origami
+    public class origami:Iface
     {
         public void sss()
         {
