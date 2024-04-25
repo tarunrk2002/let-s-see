@@ -16,6 +16,11 @@ namespace ConsoleApp1
             
             List<int> l1 = new List<int>();
             int add = 0;
+            l1.Add(4);
+            List<object> l2 = new List<object>();
+            l2.Add(5);
+            l2.Add("wdf");
+
            
 
             for (int i = 0; i < len; i++)
@@ -34,6 +39,11 @@ namespace ConsoleApp1
             //    Console.WriteLine(numbers);
             //}
             Console.WriteLine(add);
+
+            List<int> adi = new List<int>();
+            adi.Add(5);
+            //adi.Add("ifj");
+            Console.WriteLine(adi[0]);
         }
 
 
