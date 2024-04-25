@@ -1,4 +1,8 @@
-﻿namespace ConsoleApp1
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
@@ -35,7 +39,34 @@
 
             
 
-           
+           Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            
+
+            Console.WriteLine(stopwatch.Elapsed);
+            Console.ReadLine();
+            string aa = stopwatch.Elapsed.ToString();
+            Console.WriteLine(aa);
+
+            stopwatch.Stop();
+
+            Console.WriteLine(stopwatch.Elapsed);
+
+            typecheck("rgtgt");
+
+            void typecheck<g>(g whatever)
+            {
+                Console.WriteLine(typeof(g));
+                List<g> ll = new List<g>();
+
+               
+            }
+
+            
+
+            List<int> dwd = new List<int>();
+
+
 
 
 
