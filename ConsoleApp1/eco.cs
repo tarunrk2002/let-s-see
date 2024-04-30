@@ -8,5 +8,9 @@ namespace ConsoleApp1
 {
     internal class eco
     {
+        public  string name { get; set; }
+        public string description { get; set; }
+        public string type { get; set; }
+
     }
 }

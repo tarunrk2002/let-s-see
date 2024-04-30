@@ -8,73 +8,54 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
-            //Console.WriteLine("chekin");
+            List<object> list = new List<object>();
+            list.Add("ughr");
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            list.Add("eufeiuh");
 
-            ////Neww neww = new Neww();
+           
 
-            ////neww.fun();
-            //test aa = new test();
-            //aa.newfun();
-
-
-            List<int> adi = new List<int>();
-            adi.Add(5);
-            //adi.Add("ifj");
-            Console.WriteLine(adi[0]);
-
-            List<object> di = new List<object>();
-            di.Add(5);
-            di.Add("rfrf");
-            di.Add(4.5);
-           //for (int i = 0; i < di.Count; i++)
-           // {
-           //     Console.WriteLine(di[i]);
-           // }
-
-           //for (int i = 0;i < di.Count; i++)
-           // {
-           //     Console.WriteLine(di[i]);
-           // }
-
-            
-
-           Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-            
-
-            Console.WriteLine(stopwatch.Elapsed);
-            Console.ReadLine();
-            string aa = stopwatch.Elapsed.ToString();
-            Console.WriteLine(aa);
-
-            stopwatch.Stop();
-
-            Console.WriteLine(stopwatch.Elapsed);
-
-            typecheck("rgtgt");
-
-            void typecheck<g>(g whatever)
+            List<eco> result = new List<eco>();
+            result.Add(new eco
             {
-                Console.WriteLine(typeof(g));
-                List<g> ll = new List<g>();
+                name = "fgrg",
+                description = "ererf",
+                type = "dont'ert"
+            });
+            result.Add(new eco
+            {
+                name = "fgrg",
+                description = "ererf",
+                type = "dont'ert"
+            });
+            result.Add(new eco
+            {
+                name = "fgrg",
+                description = "ererf",
+                type = "dont'ert"
+            });
 
-               
+            Console.WriteLine(result);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.name);
+                Console.WriteLine(item.description);
+                    Console.WriteLine(item.type);
+                Console.WriteLine("$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
             }
+            var resultq = new List<eco>();
 
-            
+            resultq.Add(new eco
+            {
+                name = "hu4hr"
 
-            List<int> dwd = new List<int>();
+            });
 
-
-
-
-
-
-
-
-
-
+            Console.WriteLine(resultq.Count);
+            Console.WriteLine(resultq[0]);
         }
+       
     }
 }
