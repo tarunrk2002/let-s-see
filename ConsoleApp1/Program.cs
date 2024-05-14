@@ -8,103 +8,50 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            // brute force
+            // first let's create an array and then move to smth else 
+            //int[] newarray = new int[5];
+            //newarray[0] = 1;
+            //newarray[1] = 2;
+            //newarray[2] = 3;
+            //newarray[3] = 4;
+            //newarray[4] = 5;
 
-            
-            //List<eco> ecos = new List<eco>();
-            //ecos.Add(new eco
-            //{
-            //    name = "Tededst",
-            //    description = "Teset1",
-            //    type = "dewef"
-            //});
+            //int[] find = new int[2];
+            //find[0] = 3;
+            //find[1] = 4;
+             
+            int num = 0;
+            int less = 0;
 
-            //ecos.Add(new eco
-            //{
-            //    name = "Teerfst",
-            //    description = "Teserft1",
-            //    type = "deef"
-            //});
-
-            //ecos.Add(new eco
-            //{
-            //    name = "Testfr",
-            //    description = "Test1efw",
-            //    type = "dewef"
-            //});
-
-            
-            //foreach (eco e in ecos)
-            //{
-            //    Console.WriteLine(e.name);
-            //    Console.WriteLine(e.description);
-            //    Console.WriteLine(e.type);
-            //    Console.WriteLine(e);
-            //}
-            //Console.WriteLine();
-
-            //for (int i = 0; i < ecos.Count; i++)
-            //{
-            //    Console.WriteLine();
-            //}
-
-
-            List<int> ints = new List<int>();
-            ints.Add(032);
-            ints.Add(123);
-            ints.Add(24);
-            ints.Add(344444443);
-
-            Console.WriteLine(ints[1]);
-
-            List<eco> ecoob = new List<eco>();
-            ecoob.Add(new eco
+            while (num != 4)
             {
-                name = "a",
-                description = "b",
-                type = "c",
-                age = 3
-            });
-            ecoob.Add(new eco
-            {
-                name = "ade",
-                description = "wadb",
-                type = "caed",
-                age = 42
-            });
-
-            ecoob.Add(new eco
-            {
-                name = "afef",
-                description = "bef",
-                type = "sdc",
-                age=21
-            });
-
-
-
-
-            //string name;
-            //name = ecoob[2].name;
-            //Console.WriteLine(name);
-            //Console.WriteLine(ecoob[1].name);
-
-            //test ab = new test();
-            //ab.newfun();
-
-            var ecoorder = ecoob.OrderBy(des => des.age);
-            
-
-            foreach ( eco i in ecoorder)
-            {
-                Console.WriteLine(i);
+                Console.WriteLine("hi");
+                num++;
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.WriteLine(less);
+                    less = less + 1;
+                }
             }
 
-            test test = new test();
-            int a = 1;
-            int b = 2;
-            test.newfun2(a);
+
+            //for (int i = 0;i <= 4; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    if (i > 0)
+            //    {
+            //        Console.WriteLine(i);
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            
             
         }
+
        
     }
 }
