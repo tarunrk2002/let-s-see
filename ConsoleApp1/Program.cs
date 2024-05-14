@@ -59,38 +59,43 @@ namespace ConsoleApp1
             {
                 name = "a",
                 description = "b",
-                type = "c"
+                type = "c",
+                age = 3
             });
             ecoob.Add(new eco
             {
                 name = "ade",
                 description = "wadb",
-                type = "caed"
+                type = "caed",
+                age = 42
             });
 
             ecoob.Add(new eco
             {
                 name = "afef",
                 description = "bef",
-                type = "sdc"
+                type = "sdc",
+                age=21
             });
 
 
 
 
-            string name;
-            name = ecoob[2].name;
-            Console.WriteLine(name);
-            Console.WriteLine(ecoob[1].name);
+            //string name;
+            //name = ecoob[2].name;
+            //Console.WriteLine(name);
+            //Console.WriteLine(ecoob[1].name);
 
+            //test ab = new test();
+            //ab.newfun();
 
+            var ecoorder = ecoob.OrderBy(des => des.age);
+            
 
-
-
-
-
-
-
+            foreach ( eco i in ecoorder)
+            {
+                Console.WriteLine(i);
+            }
         }
        
     }
