@@ -8,6 +8,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            
             //List<eco> ecos = new List<eco>();
             //ecos.Add(new eco
             //{
@@ -96,6 +98,12 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(i);
             }
+
+            test test = new test();
+            int a = 1;
+            int b = 2;
+            test.newfun2(a);
+            
         }
        
     }

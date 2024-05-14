@@ -20,5 +20,7 @@ namespace ConsoleApp1
             
 
         }
+//optional parameters
+        public void newfun2(int a , int b = 3) { Console.WriteLine(a+b); }
     }
 }
