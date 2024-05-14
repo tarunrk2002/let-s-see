@@ -21,19 +21,19 @@ namespace ConsoleApp1
             //find[0] = 3;
             //find[1] = 4;
              
-            int num = 0;
-            int less = 0;
+            //int num = 0;
+            //int less = 0;
 
-            while (num != 4)
-            {
-                Console.WriteLine("hi");
-                num++;
-                for (int i = 0; i < 2; i++)
-                {
-                    Console.WriteLine(less);
-                    less = less + 1;
-                }
-            }
+            //while (num != 4)
+            //{
+            //    //Console.WriteLine("hi");
+            //    num++;
+            //    for (int i = 0; i < 2; i++)
+            //    {
+            //        Console.WriteLine(less);
+            //        less = less + 1;
+            //    }
+            //}
 
 
             //for (int i = 0;i <= 4; i++)
@@ -49,6 +49,11 @@ namespace ConsoleApp1
             //    }
             //}
             
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i},{i+1}");
+            }
             
         }
 
