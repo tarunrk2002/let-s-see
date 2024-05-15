@@ -21,17 +21,18 @@ namespace ConsoleApp1
             find[0] = 3;
             find[1] = 4;
             int num = 0;
-            
-                while (newarray[2] != find[0] && newarray[3] != find[1])
-                {
-                    num ++;
-                    Console.WriteLine(num);
-                }
-            
 
-            Console.WriteLine(num);
+            while (newarray[2] != find[0] && newarray[3] != find[1])
+            {
+                Console.WriteLine("not matched");
 
-           
+            }
+
+
+
+            //Console.WriteLine(num);
+
+
 
             //int num = 0;
             //int less = 0;
