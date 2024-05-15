@@ -12,7 +12,8 @@ namespace ConsoleApp1
         {
             // brute force
             // first let's create an array and then move to smth else 
-
+            Stopwatch sw = Stopwatch.StartNew();
+            sw.Start();
 
             Console.WriteLine("enter the size of array");
             string sizestring = Console.ReadLine();
@@ -44,12 +45,19 @@ namespace ConsoleApp1
                 Console.WriteLine("not matched");
                 num++;
 
+
             }
             Console.WriteLine("your index starts from {0}", num);
+            string ti=sw.Elapsed.ToString();
+            Console.WriteLine("time took to run this program is {0}",ti);
+            
+
+           
 
 
 
         }
+      
 
 
     }
