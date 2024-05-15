@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
 namespace ConsoleApp1
@@ -10,19 +12,34 @@ namespace ConsoleApp1
         {
             // brute force
             // first let's create an array and then move to smth else 
-            int[] newarray = new int[5];
-            newarray[0] = 1;
-            newarray[1] = 2;
-            newarray[2] = 3;
-            newarray[3] = 4;
-            newarray[4] = 5;
 
+
+            Console.WriteLine("enter the size of array");
+            string sizestring = Console.ReadLine();
+            int sizeofarray;
+            int.TryParse(sizestring, out sizeofarray);
+            int[] newarray = new int[sizeofarray];
+            
+            for (int i = 0; i < sizeofarray; i++)
+            {
+                Console.WriteLine("enter the {0} element of the array", i);
+                newarray[i] = int.Parse(Console.ReadLine());
+
+            }
+            
             int[] find = new int[2];
-            find[0] = 3;
-            find[1] = 4;
+            Console.WriteLine("enter the search elements.");
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("enter the {0} element of the array", i);
+                find[i] = int.Parse(Console.ReadLine());
+
+            }
+            Console.WriteLine("searching...!");
+
             int num = 0;
 
-            while (newarray[num] != find[0] && newarray[num+1] != find[1])
+            while (newarray[num] != find[0] && newarray[num + 1] != find[1])
             {
                 Console.WriteLine("not matched");
                 num++;
@@ -32,42 +49,8 @@ namespace ConsoleApp1
 
 
 
-            //Console.WriteLine(num);
-
-
-
-            //int num = 0;
-            //int less = 0;
-
-            //while (num != 4)
-            //{
-            //    //Console.WriteLine("hi");
-            //    num++;
-            //    for (int i = 0; i < 2; i++)
-            //    {
-            //        Console.WriteLine(less);
-            //        less = less + 1;
-            //    }
-            //}
-
-
-            //for (int i = 0;i <= 4; i++)
-            //{
-            //    if (i == 0)
-            //    {
-            //        Console.WriteLine(i);
-            //    }
-            //    if (i > 0)
-            //    {
-            //        Console.WriteLine(i);
-            //        Console.WriteLine(i);
-            //    }
-            //}
-
-
-
         }
 
-       
+
     }
 }
