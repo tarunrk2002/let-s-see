@@ -10,17 +10,29 @@ namespace ConsoleApp1
         {
             // brute force
             // first let's create an array and then move to smth else 
-            //int[] newarray = new int[5];
-            //newarray[0] = 1;
-            //newarray[1] = 2;
-            //newarray[2] = 3;
-            //newarray[3] = 4;
-            //newarray[4] = 5;
+            int[] newarray = new int[5];
+            newarray[0] = 1;
+            newarray[1] = 2;
+            newarray[2] = 3;
+            newarray[3] = 4;
+            newarray[4] = 5;
 
-            //int[] find = new int[2];
-            //find[0] = 3;
-            //find[1] = 4;
-             
+            int[] find = new int[2];
+            find[0] = 3;
+            find[1] = 4;
+            int num = 0;
+            
+                while (newarray[2] != find[0] && newarray[3] != find[1])
+                {
+                    num ++;
+                    Console.WriteLine(num);
+                }
+            
+
+            Console.WriteLine(num);
+
+           
+
             //int num = 0;
             //int less = 0;
 
@@ -48,13 +60,9 @@ namespace ConsoleApp1
             //        Console.WriteLine(i);
             //    }
             //}
-            
 
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine($"{i},{i+1}");
-            }
-            
+
+
         }
 
        
