@@ -22,11 +22,13 @@ namespace ConsoleApp1
             find[1] = 4;
             int num = 0;
 
-            while (newarray[2] != find[0] && newarray[3] != find[1])
+            while (newarray[num] != find[0] && newarray[num+1] != find[1])
             {
                 Console.WriteLine("not matched");
+                num++;
 
             }
+            Console.WriteLine("your index starts from {0}", num);
 
 
 
