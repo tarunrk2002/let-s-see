@@ -1,8 +1,10 @@
-﻿using System;
+﻿using newproject;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+
 
 namespace ConsoleApp1
 {
@@ -11,7 +13,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             test test = new test();
-            test.newfun();
+            //test.newfun();
+            Class1 a = new Class1();
+            a.hello();
+            
         }
     }
 }

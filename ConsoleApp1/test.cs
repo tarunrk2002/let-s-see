@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class test
+    internal class test:Me
     {
         public void newfun()
         {
