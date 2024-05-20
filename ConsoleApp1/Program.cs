@@ -12,11 +12,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            test test = new test();
-            //test.newfun();
-            Class1 a = new Class1();
-            a.hello();
+            
             
         }
+        
+       
+        
+        
     }
 }

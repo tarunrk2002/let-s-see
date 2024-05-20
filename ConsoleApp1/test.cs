@@ -46,5 +46,11 @@ namespace ConsoleApp1
             }
 
         }
+
+        public void gene<T>(T a, T b)
+        {
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
     }
 }
