@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public  class convertingtojson
+    public class jasondata
     {
-        public string name { get; set; }
-        public string place { get; set; }
+        public string a { get; set; }
+        public string b { get; set; }
+        public string c { get; set; }
+
     }
 }
