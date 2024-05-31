@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public  class convertingtojson
+    public class convertingtojson
     {
         public string name { get; set; }
         public string place { get; set; }

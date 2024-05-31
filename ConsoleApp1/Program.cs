@@ -13,7 +13,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
+
             //List<object> list1 = new List<object>();
             //list1[0] = 1;
             //list1[1] = "igitgj";
@@ -27,11 +27,14 @@ namespace ConsoleApp1
             }
             ;
 
-            string contoj = JsonSerializer.Serialize<convertingtojson>(convertingtojsonn);
-            File.WriteAllText("jsss.json", contoj);
-            var data = File.ReadAllText("jsss.json");
-            convertingtojson? readdata = JsonSerializer.Deserialize<convertingtojson>(data);
-            Console.WriteLine(readdata.place);
+            //string contoj = JsonSerializer.Serialize<convertingtojson>(convertingtojsonn);
+            //File.WriteAllText("jsss.json", contoj);
+            //var data = File.ReadAllText("jsss.json");
+            //convertingtojson? readdata = JsonSerializer.Deserialize<convertingtojson>(data);
+            //Console.WriteLine(readdata.place);
+
+            se_de x = new se_de();
+            x.do_something();
         }
     }
 }
