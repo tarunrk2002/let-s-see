@@ -13,28 +13,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+           double people = 43;
+           double capacity = 5;
+           double c = people / capacity;
+           Console.WriteLine(c);
 
-            //List<object> list1 = new List<object>();
-            //list1[0] = 1;
-            //list1[1] = "igitgj";
-
-
-            convertingtojson convertingtojsonn = new convertingtojson()
-            {
-                name = "tarun",
-                place = "bangalore"
-
-            }
-            ;
-
-            //string contoj = JsonSerializer.Serialize<convertingtojson>(convertingtojsonn);
-            //File.WriteAllText("jsss.json", contoj);
-            //var data = File.ReadAllText("jsss.json");
-            //convertingtojson? readdata = JsonSerializer.Deserialize<convertingtojson>(data);
-            //Console.WriteLine(readdata.place);
-
-            se_de x = new se_de();
-            x.do_something();
+           double d = Math.Ceiling(c);
+           Console.WriteLine(d);
         }
     }
 }
