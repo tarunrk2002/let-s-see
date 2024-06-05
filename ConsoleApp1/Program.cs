@@ -20,6 +20,11 @@ namespace ConsoleApp1
 
            double d = Math.Ceiling(c);
            Console.WriteLine(d);
+           getser getser = new getser(2,3);
+            getser.Name = "hi";
+            
+            
+
         }
     }
 }
